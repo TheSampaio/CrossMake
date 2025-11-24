@@ -27,6 +27,7 @@ IF EXIST CMakeLists.txt (
 
 :: Delete .gitkeep files in include, tests, and vendor folders
 IF EXIST include\.gitkeep DEL include\.gitkeep
+IF EXIST source\.gitkeep DEL source\.gitkeep
 IF EXIST tests\.gitkeep DEL tests\.gitkeep
 IF EXIST vendor\.gitkeep DEL vendor\.gitkeep
 

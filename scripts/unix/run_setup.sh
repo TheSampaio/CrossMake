@@ -27,6 +27,7 @@ fi
 
 # Delete .gitkeep files in include, tests, and vendor folders
 [ -f include/.gitkeep ] && rm include/.gitkeep
+[ -f source/.gitkeep ] && rm source/.gitkeep
 [ -f tests/.gitkeep ] && rm tests/.gitkeep
 [ -f vendor/.gitkeep ] && rm vendor/.gitkeep
 
