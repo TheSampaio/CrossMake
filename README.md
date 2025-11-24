@@ -8,12 +8,12 @@ CrossMake provides a minimal, well-structured, and scalable starting point for a
 
 **1)** Clone the template:
 ```bash
-git clone https://github.com/TheSampaio/CrossMake.git
+git clone https://github.com/TheSampaio/CrossMake.git YOUR_PROJECT_NAME
 ```
 
 **2)** Enter the project directory:
 ```bash
-cd CrossMake
+cd CrossMake YOUR_PROJECT_NAME
 ```
 
 **3)** Rename the folder and edit the project name in **CMakeLists.txt**. This will become the name of your application.
