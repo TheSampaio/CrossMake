@@ -1,0 +1,10 @@
+# Editors and IDEs
+.vs/
+.vscode/
+
+# Build directories
+build/
+out/
+
+# User-specific files
+*.user
