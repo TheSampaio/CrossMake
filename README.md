@@ -6,17 +6,32 @@ CrossMake provides a minimal, well-structured, and scalable starting point for a
 
 ## 🏁 Getting Started
 
-**1)** Clone the template:
+**1) Clone the template**
 ```bash
 git clone https://github.com/TheSampaio/CrossMake.git YOUR_PROJECT_NAME
 ```
 
-**2)** Enter the project directory:
+**2) Enter the project directory**
 ```bash
 cd CrossMake YOUR_PROJECT_NAME
 ```
 
-**3)** Rename the folder and edit the project name in **CMakeLists.txt**. This will become the name of your application.
+### **3) Run the setup script**  
+Depending on your operating system:
+
+#### **Unix (macOS / Linux)**  
+Run the setup script inside `scripts/unix`:
+
+```bash
+./scripts/unix/run_setup.sh
+```
+
+#### **Windows**
+Run the batch file inside scripts/windows:
+
+```bash
+scripts\windows\run_setup.bat
+```
 
 ## 🚀 Features
 
@@ -34,10 +49,10 @@ cd CrossMake YOUR_PROJECT_NAME
 project_root/
  ├─ include/             # Public headers
  ├─ source/              # Source files
- ├─ tests/               # (Optional) Unit tests
+ ├─ tests/               # Unit and integration tests
  ├─ vendor/              # For external libraries in CMake
  ├─ CMakeLists.txt       # Root CMake configuration
- ├─ CMakePresets.json    # Optional build presets for CLI and IDE integration
+ ├─ CMakePresets.json    # Build presets for CLI/IDE integration
  └─ README.md
 ```
 
